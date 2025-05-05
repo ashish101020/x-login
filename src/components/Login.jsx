@@ -29,10 +29,10 @@ const Login = () => {
   };
 
   const validateInput = (user, password) => {
-    if (user.trim === "" || user == undefined) {
+    if (user.trim === "" || user === undefined) {
       return false;
     }
-    if (password.trim === "" || password == undefined) {
+    if (password.trim === "" || password === undefined) {
       return false;
     }
     return true;
